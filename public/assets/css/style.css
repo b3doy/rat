@@ -1,0 +1,398 @@
+@font-face {
+    font-family: "Raleway";
+    src: url("/e-MR/public/fonts/Raleway-Regular.ttf");
+    src: url("/e-MR/public/fonts/Raleway-Regular.ttf") format("ttf"),
+        url("/e-MR/public/fonts/Raleway-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Abel";
+    src: url("/e-MR/public/fonts/Abel-Regular.ttf");
+    src: url("/e-MR/public/fonts/Abel-Regular.ttf") format("ttf"),
+        url("/e-MR/public/fonts/Abel-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Nunito";
+    src: url("/e-MR/public/fonts/Nunito-Light.ttf");
+    src: url("/e-MR/public/fonts/Nunito-Light.ttf") format("ttf"),
+        url("/e-MR/public/fonts/Nunito-Light.ttf") format("truetype");
+}
+
+@media print {
+    .noprint {
+        display: none;
+    }
+}
+
+body {
+    font-family: "Nunito", "Raleway", "Abel", sans-serif;
+    background-image: url('/e-MR/public/img/back.jpg');
+}
+
+#logo-nav {
+    width: 70px;
+    height: 70px;
+}
+
+#logo-ktr {
+    width: 50px;
+    height: 50px;
+}
+
+.top {
+    margin-top: 45px;
+}
+
+.bg {
+    /* background-color: whitesmoke; */
+    padding: 20px;
+}
+
+.emr-img {
+    width: 100%;
+    height: 150px;
+    border-bottom: double;
+}
+#emrLogo-head {
+    width: 70px;
+    height: 55px;
+}
+
+.bottom {
+    max-width: fit-content;
+    margin: 20px auto;
+    text-align: center;
+    color: lightgrey;
+    bottom: 0;
+}
+
+#banner {
+    width: 100%;
+    height: 50px;
+}
+
+#emrTitle {
+    width: 5px;
+    height: 5px;
+}
+
+.table-font {
+    font-size: 12px;
+}
+
+.lampiran-font {
+    font-size: 12px;
+}
+
+.judul {
+    text-align: center;
+    margin-left: 200px;
+}
+
+#ver {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-orange {
+    background-color: orange;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-lightgreen {
+    background-color: lightgreen;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.bg-darkblue {
+    background-color: darkblue;
+    color: whitesmoke;
+}
+
+.bg-lightblue {
+    background-color: lightblue;
+}
+
+.bg-images {
+    background-image: url('/e-MR/public/img/bg3.jpg'); 
+    width: 100%;
+    padding: 20px;
+}
+
+.rapat {
+    float: right;
+    text-align: right;
+}
+
+.ttd {
+    padding-left: 100px;
+}
+
+.peta {
+    /* width: 700px; */
+    height: 350px;
+}
+
+.form-control {
+    background-color: whitesmoke;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.li-list {
+    margin-top: 30px;
+}
+
+.pic-doc {
+    width: 100%;
+}
+
+.sidebar {
+    float: left;
+    position: fixed;
+}
+
+/* Fixed sidenav, full height */
+.sidenav {
+    /* height: 100%; */
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    /* top: 0; */
+    /* left: 0; */
+    background-color: whitesmoke;
+    overflow-x: hidden;
+    padding-top: 30px;
+  }
+  
+  /* Style the sidenav links and the dropdown button */
+  .sidenav a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    /* font-size: 20px; */
+    color: #000;
+    display: block;
+    border: none;
+    background: none;
+    width:100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  /* On mouse-over */
+  .sidenav a:hover, .dropdown-btn:hover {
+    color: green;
+  }
+
+  /* Add an active class to the active dropdown button */
+.active {
+    background-color: honeydew;
+    color: green;
+  }
+
+  /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+    display: none;
+    background-color: whitesmoke;
+    padding-left: 8px;
+  }
+  
+  /* Optional: Style the caret down icon */
+  .fa-caret-down {
+    float: right;
+    padding-right: 8px;
+  }
+
+  /* Some media queries for responsiveness */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+.mainbar {
+    margin-top: 50px;
+    margin-left: 300px;
+   
+}
+
+
+
+/* Main title css
+============================================================================================ */
+/*---------------------------------------------------- */
+/*----------------------------------------------------*/
+/* Main Menu Area css
+============================================================================================ */
+.main_menu_area {
+    position: absolute;
+    left: 0px;
+    top: 110px;
+    width: 100%;
+    z-index: 30;
+    padding: 0px 15px;
+}
+
+.main_menu_area .navbar {
+    padding: 0px;
+    border-radius: 0px;
+    background-color: transparent !important;
+}
+
+.main_menu_area .navbar .navbar-toggler {
+    border: none;
+    border-radius: 0px;
+    padding: 0px;
+}
+
+.main_menu_area .navbar .navbar-toggler span {
+    height: 3px;
+    width: 25px;
+    display: block;
+    background: #0b1033;
+    margin-bottom: 3px;
+}
+
+.main_menu_area .navbar .navbar-toggler span:last-child {
+    margin-bottom: 0px;
+}
+
+@media (min-width: 992px) {
+    .main_menu_area .navbar .navbar-collapse {
+        text-align: right;
+        display: block !important;
+    }
+}
+
+.main_menu_area .navbar .navbar-nav {
+    display: inline-block;
+    text-align: right;
+}
+
+.main_menu_area .navbar .navbar-nav li {
+    display: inline-block;
+    margin-right: 55px;
+}
+
+.main_menu_area .navbar .navbar-nav li a {
+    font-size: 13px;
+    font-family: "Raleway", "Nunito", "Abel", sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #314739;
+    letter-spacing: 0.65px;
+    padding: 0px;
+    margin-top: auto;
+    /* line-height: 50px; */
+    -webkit-transition: all 400ms linear 0s;
+    -o-transition: all 400ms linear 0s;
+    transition: all 400ms linear 0s;
+}
+
+.main_menu_area .navbar .navbar-nav li:last-child {
+    margin-right: 0px;
+}
+
+@media (min-width: 992px) {
+    .main_menu_area .navbar .navbar-nav li.submenu .dropdown-menu {
+        -webkit-transform: scaleY(0);
+        -ms-transform: scaleY(0);
+        transform: scaleY(0);
+        -webkit-transition: all 400ms ease-out;
+        -o-transition: all 400ms ease-out;
+        transition: all 400ms ease-out;
+        display: block;
+        -webkit-transform-origin: 50% 0;
+        -ms-transform-origin: 50% 0;
+        transform-origin: 50% 0;
+        min-width: 275px;
+        background: rgba(0, 0, 0, 0.8);
+        left: auto;
+        right: 0px;
+        top: 90%;
+        border-radius: 0px;
+        border: none;
+        padding: 10px 0px 10px 0px;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        visibility: hidden;
+    }
+}
+
+.main_menu_area .navbar .navbar-nav li.submenu .dropdown-menu li {
+    margin-right: 0px;
+    display: block;
+}
+
+.main_menu_area .navbar .navbar-nav li.submenu .dropdown-menu li a {
+    display: block;
+    line-height: 38px;
+    color: #fff;
+    font-family: "Raleway", "Nunito", "Abel", sans-serif;
+    letter-spacing: 0.48px;
+    font-size: 16px;
+    padding: 0px 30px;
+    text-transform: inherit;
+    -webkit-transition: all 400ms linear 0s;
+    -o-transition: all 400ms linear 0s;
+    transition: all 400ms linear 0s;
+    font-weight: normal;
+    text-shadow: none;
+}
+
+.main_menu_area .navbar .navbar-nav li.submenu .dropdown-menu li:hover a {
+    color: #35a768;
+}
+
+@media (min-width: 992px) {
+    .main_menu_area .navbar .navbar-nav li:hover.submenu .dropdown-menu {
+        -webkit-transform: scaleY(1);
+        -ms-transform: scaleY(1);
+        transform: scaleY(1);
+        visibility: visible;
+    }
+}
+
+.main_menu_area .navbar .navbar-nav li:hover a,
+.main_menu_area .navbar .navbar-nav li.active a {
+    color: #35a768;
+}
+
+.main_menu_area.navbar_fixed {
+    position: fixed;
+    width: 100%;
+    top: -70px;
+    left: 0;
+    right: 0;
+    background: rgba(107, 176, 130, 0.6);
+    -webkit-transform: translateY(70px);
+    -ms-transform: translateY(70px);
+    transform: translateY(70px);
+    -webkit-transition: background 500ms ease, -webkit-transform 500ms ease;
+    transition: background 500ms ease, -webkit-transform 500ms ease;
+    -o-transition: transform 500ms ease, background 500ms ease;
+    transition: transform 500ms ease, background 500ms ease;
+    transition: transform 500ms ease, background 500ms ease,
+        -webkit-transform 500ms ease;
+    -webkit-transition: transform 500ms ease, background 500ms ease;
+    z-index: 999999;
+}
+
+.main_menu_area.navbar_fixed .navbar .navbar-nav li a {
+    line-height: 70px;
+}
+
+/* End Main Menu Area css

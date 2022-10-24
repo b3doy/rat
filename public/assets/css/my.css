@@ -1,0 +1,127 @@
+@font-face {
+  font-family: "Raleway";
+  src: url("/rat-1.0/public/assets/fonts/Raleway-Regular.ttf");
+  src: url("/rat-1.0/public/assets/fonts/Raleway-Regular.ttf") format("ttf"),
+    url("/rat-1.0/public/assets/fonts/Raleway-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Abel";
+  src: url("/rat-1.0/public/assets/fonts/Abel-Regular.ttf");
+  src: url("/rat-1.0/public/assets/fonts/Abel-Regular.ttf") format("ttf"),
+    url("/rat-1.0/public/assets/fonts/Abel-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("/rat-1.0/public/assets/fonts/Nunito-Light.ttf");
+  src: url("/rat-1.0/public/assets/fonts/Nunito-Light.ttf") format("ttf"),
+    url("/rat-1.0/public/assets/fonts/Nunito-Light.ttf") format("truetype");
+}
+
+@media print {
+  @page {
+    margin-top: -20px;
+    font-size: 10px;
+  }
+  .noprint {
+    display: none;
+    margin-top: -50px;
+  }
+}
+
+body {
+  font-family: "Nunito", "Raleway", "Abel", sans-serif;
+  background-image: url("/rat-1.0/public/assets/img/back.jpg");
+}
+
+#logo-nav {
+  width: 100%;
+}
+
+#logo-rat {
+  width: 50px;
+  opacity: 0.8;
+}
+
+#unit-kerja-atas {
+  width: 150px;
+  margin-top: 5px;
+}
+
+.nengah {
+  padding-left: 13%;
+}
+.nganan {
+  float: right;
+  padding-right: 10px;
+}
+
+.container-presisi {
+  padding-left: 10%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.card-width {
+  width: 110%;
+}
+.table-font {
+  font-size: 12px;
+}
+
+#ver {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.bg-orange {
+  background-color: orange;
+}
+
+.bg-green {
+  background-color: green;
+}
+
+.bg-lightgreen {
+  background-color: lightgreen;
+}
+
+.bg-yellow {
+  background-color: yellow;
+}
+
+.bg-darkblue {
+  background-color: darkblue;
+  color: whitesmoke;
+}
+
+.bg-lightblue {
+  background-color: lightblue;
+}
+
+.bg-images {
+  background-image: url("/rat-1.0/public/assets/img/bg3.jpg");
+  width: 100%;
+  margin-top: -10px;
+  padding: 5px;
+}
+
+.rapat {
+  float: right;
+  text-align: right;
+}
+
+.ttd {
+  padding-left: 100px;
+}
+
+.peta {
+  /* width: 700px; */
+  height: 350px;
+}
