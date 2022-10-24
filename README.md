@@ -1,4 +1,4 @@
-# RISK ASESSMENT TOOLS
+# RISK ASSESSMENT TOOLS
 
 - Aplikasi ini dibuat atas permintaan KEMENTERIAN AGAMA REPUBLIK INDONESIA
 - Aplikasi ini dibangun menggunakan Codeigniter 4
